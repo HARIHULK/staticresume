@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card1{
+    
+    
+}
+.head{
+    background: yellow;
+    display: flex;
+    justify-content: center;
+}
+list-group-item {
+ font-weight: bold;
+ text-decoration: none;
+}
+.maincontent{
+width: 750px;
+height: 650px;
+
+}
+.headings h1{
+    border-bottom: 2px solid red;
+   
+}
+.list{
+    margin-left: 20px;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .maincontent{
+    width: 400px;
+    height: 650px;
+    
+    }
+    .card{
+       width: auto;
+    }
+    
+    }
+    
+@media only screen and (min-width:481px) and (max-width:767px){
+    .maincontent{
+        width: 600px;
+        height: 650px;
+        
+        }
+        .card{
+            width: auto;
+        }
+    }
+    
